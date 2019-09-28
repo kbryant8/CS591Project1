@@ -1,0 +1,5 @@
+The goal of this project is multi-leveled. On the first level, the goal is to become familiar with parsing in python and the use of the NodeVisitor class. On a more sophisticated level, my goal was to create a parser that will allow essentially any method within scipy to be accepted, as long as it only deals with Numbers, Lists, and Tuples, meaning we can utilize a lot of the library.
+
+For part three, I wasn’t able to do something as fun as I’d like due to time constraint paired with being sick. However, I was able to make a new iteration of NodeVisitor that also counts the number of operations, effectively letting us predict how many actions a function will take before we have to call it. My last change checks for a type and returns if valid, but we only support num and str (and we don’t differentiate between types of num), so if they aren’t all same, has None type in language.
+
+Overall, this was great practice with parsing, and I got to have a little fun changing AST, I just wish I had more time (the true dilemma)
